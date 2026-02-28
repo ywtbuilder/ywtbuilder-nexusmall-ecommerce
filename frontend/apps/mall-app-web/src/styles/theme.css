@@ -1,0 +1,294 @@
+:root {
+  --t-bg: #f8f5f0;
+  --t-bg-card: #ffffff;
+  --t-bg-top: #faf7f3;
+  --t-bg-muted: #f2ede6;
+  --t-bg-hover: #efe9e0;
+
+  --t-border: #e8e0d6;
+  --t-border-light: #f0eae2;
+
+  --t-text: #2c1810;
+  --t-text-2: #6b5e54;
+  --t-text-3: #a39890;
+
+  --t-primary: #c4734f;
+  --t-primary-hover: #d4845e;
+  --t-primary-bg: #fdf3ee;
+  --t-gold: #c9a96e;
+  --t-sage: #6b8f71;
+  --t-sage-bg: #eef4ef;
+  --t-red: #c45b5b;
+  --t-red-bg: #fdf0f0;
+
+  --t-radius-sm: 6px;
+  --t-radius-md: 10px;
+  --t-radius-lg: 14px;
+  --t-radius-full: 100px;
+
+  --t-shadow-sm: 0 1px 3px rgba(44, 24, 16, 0.04), 0 1px 2px rgba(44, 24, 16, 0.06);
+  --t-shadow-md: 0 4px 12px rgba(44, 24, 16, 0.06), 0 1px 4px rgba(44, 24, 16, 0.04);
+  --t-shadow-lg: 0 8px 24px rgba(44, 24, 16, 0.08), 0 2px 8px rgba(44, 24, 16, 0.04);
+
+  --t-font: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --t-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-dur: 260ms;
+
+  --app-content-max-width: 1200px;
+  --app-content-padding: 14px;
+  --app-card-gap: 10px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --app-card-gap: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --app-content-padding: 20px;
+    --app-card-gap: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --app-card-gap: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --app-card-gap: 16px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--t-font);
+  background: var(--t-bg);
+  color: var(--t-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.van-nav-bar {
+  background: var(--t-bg-top) !important;
+  border-bottom: 1px solid var(--t-border-light) !important;
+}
+
+.van-nav-bar__title {
+  font-weight: 600 !important;
+  color: var(--t-text) !important;
+  letter-spacing: -0.01em;
+}
+
+.van-nav-bar__arrow {
+  color: var(--t-text) !important;
+}
+
+.van-search {
+  background: var(--t-bg-top) !important;
+  padding: 8px var(--app-content-padding) !important;
+}
+
+.van-search__content {
+  background: var(--t-bg-muted) !important;
+  border-radius: var(--t-radius-full) !important;
+}
+
+.van-tabbar {
+  background: var(--t-bg-card) !important;
+  border-top: 1px solid var(--t-border-light) !important;
+  box-shadow: 0 -2px 12px rgba(44, 24, 16, 0.04) !important;
+}
+
+.van-tabbar-item--active {
+  color: var(--t-primary) !important;
+}
+
+.van-tabbar-item__icon {
+  font-size: 20px !important;
+}
+
+.van-tabs__nav {
+  background: var(--t-bg-card) !important;
+}
+
+.van-tab--active {
+  color: var(--t-primary) !important;
+  font-weight: 600 !important;
+}
+
+.van-tabs__line {
+  width: 24px !important;
+  border-radius: 2px !important;
+  background: var(--t-primary) !important;
+}
+
+.van-button--primary {
+  background: var(--t-primary) !important;
+  border-color: var(--t-primary) !important;
+}
+
+.van-button--primary:active {
+  background: var(--t-primary-hover) !important;
+}
+
+.van-button--danger {
+  background: var(--t-red) !important;
+  border-color: var(--t-red) !important;
+}
+
+.van-button--warning {
+  background: var(--t-gold) !important;
+  border-color: var(--t-gold) !important;
+}
+
+.van-cell-group--inset {
+  border-radius: var(--t-radius-md) !important;
+  overflow: hidden;
+  box-shadow: var(--t-shadow-sm) !important;
+}
+
+.van-card {
+  background: var(--t-bg-card) !important;
+  border-radius: var(--t-radius-md) !important;
+  margin: 8px var(--app-content-padding) !important;
+  box-shadow: var(--t-shadow-sm) !important;
+}
+
+.van-card__thumb {
+  border-radius: var(--t-radius-sm) !important;
+  overflow: hidden;
+}
+
+.van-card__title {
+  color: var(--t-text) !important;
+  font-weight: 500 !important;
+}
+
+.van-card__price {
+  color: var(--t-primary) !important;
+  font-weight: 600 !important;
+}
+
+.van-tag--primary {
+  background: var(--t-primary) !important;
+}
+
+.van-tag--success {
+  background: var(--t-sage) !important;
+}
+
+.van-tag--warning {
+  background: var(--t-gold) !important;
+}
+
+.van-tag--danger {
+  background: var(--t-red) !important;
+}
+
+.van-submit-bar {
+  border-top: 1px solid var(--t-border-light) !important;
+}
+
+.van-submit-bar__button {
+  background: var(--t-primary) !important;
+  border-color: var(--t-primary) !important;
+  border-radius: var(--t-radius-full) !important;
+}
+
+.van-action-bar-button--warning {
+  background: var(--t-gold) !important;
+  border-color: var(--t-gold) !important;
+}
+
+.van-action-bar-button--danger {
+  background: var(--t-primary) !important;
+  border-color: var(--t-primary) !important;
+}
+
+.van-sidebar-item--select {
+  color: var(--t-primary) !important;
+  border-color: var(--t-primary) !important;
+}
+
+.van-sidebar {
+  background: var(--t-bg-muted) !important;
+}
+
+.van-swipe__indicator--active {
+  background: var(--t-primary) !important;
+}
+
+.van-contact-card {
+  margin: 12px !important;
+  border-radius: var(--t-radius-md) !important;
+  box-shadow: var(--t-shadow-sm) !important;
+}
+
+@keyframes terraFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.terra-animate {
+  animation: terraFadeUp 400ms var(--t-ease) both;
+}
+
+.terra-stagger > *:nth-child(1) {
+  animation-delay: 0ms;
+}
+
+.terra-stagger > *:nth-child(2) {
+  animation-delay: 50ms;
+}
+
+.terra-stagger > *:nth-child(3) {
+  animation-delay: 100ms;
+}
+
+.terra-stagger > *:nth-child(4) {
+  animation-delay: 150ms;
+}
+
+.terra-stagger > *:nth-child(5) {
+  animation-delay: 200ms;
+}
+
+.terra-stagger > *:nth-child(6) {
+  animation-delay: 250ms;
+}
+
+@media (min-width: 1024px) {
+  .van-search {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+
+  .van-search__content {
+    min-height: 34px;
+  }
+
+  .van-search .van-icon-search,
+  .van-search .van-icon-clear {
+    font-size: 16px !important;
+  }
+
+  .van-search__field {
+    font-size: 14px !important;
+  }
+}

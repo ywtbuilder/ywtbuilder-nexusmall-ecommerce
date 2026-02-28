@@ -1,0 +1,25 @@
+{
+  "name": "mall-v3-frontend",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "dev:admin": "pnpm --filter mall-admin-web dev",
+    "dev:app": "pnpm --filter mall-app-web dev",
+    "build:admin": "pnpm --filter mall-admin-web build",
+    "build:app": "pnpm --filter mall-app-web build",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check",
+    "test:e2e": "pnpm --filter mall-e2e test:e2e",
+    "test:e2e:ui": "pnpm --filter mall-e2e test:e2e:ui"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.0"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "vue-demi"]
+  }
+}

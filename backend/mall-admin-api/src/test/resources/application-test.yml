@@ -1,0 +1,41 @@
+# Test profile — overrides for integration tests
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  flyway:
+    enabled: false
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  type-aliases-package: com.mall.module.*.entity
+  global-config:
+    db-config:
+      logic-delete-field: deleteStatus
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumNameTypeHandler
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+mall:
+  auth:
+    token-header: Authorization
+    token-head: "Bearer "
+    jwt-secret: "test-secret-key-for-integration-testing-32chars-at-least!"
+    jwt-expiration-seconds: 3600
+
+minio:
+  endpoint: http://localhost:9999
+  bucket-name: test
+  access-key: minioadmin
+  secret-key: minioadmin
+
+logging:
+  level:
+    com.mall: DEBUG
+    org.testcontainers: INFO

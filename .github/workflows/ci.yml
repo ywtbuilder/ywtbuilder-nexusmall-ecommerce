@@ -1,0 +1,147 @@
+# Mall V3 — CI Pipeline (GitHub Actions)
+# Triggers: push to main/develop, pull requests to main
+
+name: Mall V3 CI
+
+on:
+  push:
+    branches: [main, develop]
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  JAVA_VERSION: '17'
+  NODE_VERSION: '20'
+  PNPM_VERSION: '9'
+
+jobs:
+  # ───────────────────── Backend ─────────────────────
+  backend:
+    name: Backend (Java ${{ matrix.java }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: ['17']
+    defaults:
+      run:
+        working-directory: backend
+
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: mall
+        ports:
+          - 13306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 16379:6379
+        options: >-
+          --health-cmd="redis-cli ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK ${{ matrix.java }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: temurin
+          cache: maven
+          cache-dependency-path: backend/pom.xml
+
+      - name: Compile
+        run: ./mvnw compile -q -B
+
+      - name: Unit tests
+        run: ./mvnw test -q -B -pl mall-shared/shared-common,mall-shared/shared-security
+
+      - name: Package (skip tests)
+        run: ./mvnw package -DskipTests -q -B
+
+      - name: Upload backend artifacts
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-jars
+          path: |
+            backend/mall-app-api/target/*.jar
+            backend/mall-admin-api/target/*.jar
+            backend/mall-job/target/*.jar
+          retention-days: 7
+
+  # ───────────────────── Frontend ─────────────────────
+  frontend:
+    name: Frontend (Node ${{ env.NODE_VERSION }})
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Shadow JS gate (pre-build)
+        run: pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File ../scripts/check-shadow-js.ps1
+
+      - name: Type check
+        run: pnpm type-check
+
+      - name: Build admin-web
+        run: pnpm build:admin
+
+      - name: Shadow JS gate (after admin build)
+        run: pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File ../scripts/check-shadow-js.ps1
+
+      - name: Build app-web
+        run: pnpm build:app
+
+      - name: Shadow JS gate (after app build)
+        run: pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File ../scripts/check-shadow-js.ps1
+
+      - name: Upload frontend artifacts
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: |
+            frontend/apps/mall-admin-web/dist
+            frontend/apps/mall-app-web/dist
+          retention-days: 7

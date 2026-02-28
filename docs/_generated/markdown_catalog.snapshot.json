@@ -1,0 +1,1276 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-02-27T20:49:21+08:00",
+  "workspace_root": "D:/Desktop/work/mall",
+  "exclude_globs": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/.vite/**",
+    "**/dist/**",
+    "**/target/**",
+    "**/coverage/**",
+    "**/docs/_generated/markdown_catalog.md"
+  ],
+  "summary": {
+    "raw_total_files": 329,
+    "total_files": 172,
+    "managed_files": 62,
+    "unmanaged_files": 110,
+    "category_counts": [
+      {
+        "category": "assets-docs",
+        "count": 107
+      },
+      {
+        "category": "backend-docs",
+        "count": 2
+      },
+      {
+        "category": "data-docs",
+        "count": 1
+      },
+      {
+        "category": "frontend-docs",
+        "count": 1
+      },
+      {
+        "category": "generated-docs",
+        "count": 3
+      },
+      {
+        "category": "global-docs",
+        "count": 34
+      },
+      {
+        "category": "infra-docs",
+        "count": 1
+      },
+      {
+        "category": "project-root-docs",
+        "count": 9
+      },
+      {
+        "category": "scripts-docs",
+        "count": 1
+      },
+      {
+        "category": "tests-docs",
+        "count": 1
+      },
+      {
+        "category": "tools-docs",
+        "count": 1
+      },
+      {
+        "category": "workspace-root-docs",
+        "count": 11
+      }
+    ]
+  },
+  "files": [
+    {
+      "rel_path": ".A用户计划/阶段任务_s1.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 7171,
+      "last_write_utc": "2026-02-26T06:50:38Z"
+    },
+    {
+      "rel_path": ".A用户计划/阶段任务_s2.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 5293,
+      "last_write_utc": "2026-02-26T11:36:16Z"
+    },
+    {
+      "rel_path": ".A用户计划/阶段任务_s3.1（京东爬取的商品文件详细处理）（弃用）.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 5969,
+      "last_write_utc": "2026-02-27T00:45:25Z"
+    },
+    {
+      "rel_path": ".A用户计划/阶段任务_s3.1（淘宝爬取的商品文件详细处理）.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 1412,
+      "last_write_utc": "2026-02-27T05:08:23Z"
+    },
+    {
+      "rel_path": ".A用户计划/阶段任务_s3.2（京东数据库）（弃用）.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 20161,
+      "last_write_utc": "2026-02-26T13:19:30Z"
+    },
+    {
+      "rel_path": ".A用户计划/阶段任务_s3.2（淘宝数据库）.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 21151,
+      "last_write_utc": "2026-02-27T05:03:46Z"
+    },
+    {
+      "rel_path": ".A用户计划/爬取网站指南.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 3093,
+      "last_write_utc": "2026-02-27T00:36:00Z"
+    },
+    {
+      "rel_path": ".A用户计划/PowerShell7指令集.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 7653,
+      "last_write_utc": "2026-02-26T09:13:33Z"
+    },
+    {
+      "rel_path": "AGENTS.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 31782,
+      "last_write_utc": "2026-02-27T12:44:12Z"
+    },
+    {
+      "rel_path": "project_mall_v3/.github/README.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 3248,
+      "last_write_utc": "2026-02-23T07:58:35Z"
+    },
+    {
+      "rel_path": "project_mall_v3/AGENTS.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 14329,
+      "last_write_utc": "2026-02-27T12:46:17Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_001_750560340869/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2734,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_001_750560340869/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 6303,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_002_904174034691/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2221,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_002_904174034691/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5336,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_003_914223211197/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2320,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_003_914223211197/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5473,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_004_974741727773/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2872,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_004_974741727773/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 6980,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_005_1014371360191/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2476,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/笔记本电脑/tb_laptop_005_1014371360191/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5278,
+      "last_write_utc": "2026-02-27T05:24:01Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_001_610950860127/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2897,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_001_610950860127/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 6655,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_002_676917614211/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2987,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_002_676917614211/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 6864,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_003_867937507090/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2429,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_003_867937507090/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5287,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_004_958711282975/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2276,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_004_958711282975/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5162,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_005_1019911157940/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1542,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/服饰/tb_apparel_005_1019911157940/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3516,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_001_626464807245/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3071,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_001_626464807245/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 7687,
+      "last_write_utc": "2026-02-27T05:24:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_002_704085889093/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2099,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_002_704085889093/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4221,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_003_886174930297/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2017,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_003_886174930297/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4524,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_004_956181893443/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1886,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_004_956181893443/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5022,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_005_972676206757/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1492,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/家用电器/tb_appliance_005_972676206757/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2872,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_001_597023183036/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1379,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_001_597023183036/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 217,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_002_629344507118/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1763,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_002_629344507118/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 220,
+      "last_write_utc": "2026-02-27T05:24:03Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_003_642833195713/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3541,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_003_642833195713/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 222,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_004_858035866106/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1372,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_004_858035866106/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 238,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_005_950582055632/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1390,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/美妆个护/tb_beauty_005_950582055632/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 252,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_001_968046607971/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3002,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_001_968046607971/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 191,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_002_981416656245/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1248,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_002_981416656245/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 190,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_003_999734914154/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1360,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_003_999734914154/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 221,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_004_1004996350093/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1535,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_004_1004996350093/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 188,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_005_1009175771520/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2257,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/平板/tb_tablet_005_1009175771520/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 190,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/商品素材清单.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4860,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_001_774527530239/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 935,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_001_774527530239/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 242,
+      "last_write_utc": "2026-02-27T05:24:04Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_002_785429520073/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 951,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_002_785429520073/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 232,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_003_860187028946/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1182,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_003_860187028946/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 218,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_004_927263098296/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1334,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_004_927263098296/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 200,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_005_936375782722/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1261,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_005_936375782722/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 235,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_006_938115894052/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1023,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_006_938115894052/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 201,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_007_965567338272/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1099,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_007_965567338272/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 215,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_008_973261334879/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 981,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/食品饮料/tb_food_008_973261334879/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 211,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_001_775406821320/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1317,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_001_775406821320/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 228,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_002_864306874890/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1250,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_002_864306874890/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 234,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_003_918041876931/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1719,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_003_918041876931/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4053,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_004_941155180379/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1290,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_004_941155180379/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 203,
+      "last_write_utc": "2026-02-27T05:24:05Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_005_1011827759221/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3223,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/手机/tb_phone_005_1011827759221/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 8186,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_001_649056289676/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4521,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_001_649056289676/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 10792,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_002_737735739808/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2271,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_002_737735739808/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4729,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_003_838408502269/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1596,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_003_838408502269/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2722,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_004_971280393929/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1734,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_004_971280393929/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3063,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_005_995207362193/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1430,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/图书文娱/tb_books_005_995207362193/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2256,
+      "last_write_utc": "2026-02-27T05:24:06Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_001_827163951308/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3469,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_001_827163951308/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 8998,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_002_848308513190/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3570,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_002_848308513190/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 8416,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_003_848534543898/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2255,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_003_848534543898/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5611,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_004_919730567455/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3180,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_004_919730567455/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 7258,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_005_1002693917237/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2114,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/运动鞋/tb_shoes_005_1002693917237/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 5277,
+      "last_write_utc": "2026-02-27T05:24:07Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_001_800301416412/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2610,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_001_800301416412/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 6816,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_002_822973820305/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 2000,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_002_822973820305/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4442,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_003_840746410407/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1808,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_003_840746410407/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 4337,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_004_927391880488/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1663,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_004_927391880488/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3186,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_005_969655085643/meta.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 1547,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/assets/淘宝爬取商品数据/智能穿戴/tb_wearable_005_969655085643/source.md",
+      "category": "assets-docs",
+      "managed": false,
+      "size_bytes": 3480,
+      "last_write_utc": "2026-02-27T05:24:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/backend/mall-modules/README.md",
+      "category": "backend-docs",
+      "managed": true,
+      "size_bytes": 3051,
+      "last_write_utc": "2026-02-23T06:57:26Z"
+    },
+    {
+      "rel_path": "project_mall_v3/backend/README.md",
+      "category": "backend-docs",
+      "managed": true,
+      "size_bytes": 10792,
+      "last_write_utc": "2026-02-26T07:33:45Z"
+    },
+    {
+      "rel_path": "project_mall_v3/data/README.md",
+      "category": "data-docs",
+      "managed": true,
+      "size_bytes": 3982,
+      "last_write_utc": "2026-02-27T12:44:12Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/_generated/markdown_catalog.md",
+      "category": "generated-docs",
+      "managed": false,
+      "size_bytes": 23627,
+      "last_write_utc": "2026-02-27T12:48:44Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/_generated/project_facts.md",
+      "category": "generated-docs",
+      "managed": false,
+      "size_bytes": 1813,
+      "last_write_utc": "2026-02-27T12:49:18Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/_generated/tools/toolbox.dependency.md",
+      "category": "generated-docs",
+      "managed": false,
+      "size_bytes": 353,
+      "last_write_utc": "2026-02-27T04:35:23Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/00_architecture.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 5754,
+      "last_write_utc": "2026-02-26T07:33:19Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/01_roadmap.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 5278,
+      "last_write_utc": "2026-02-27T12:48:17Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/02_api_contract.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 6270,
+      "last_write_utc": "2026-02-26T07:32:46Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/03_data_migration.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 4352,
+      "last_write_utc": "2026-02-27T12:46:17Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/04_release_runbook.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 5974,
+      "last_write_utc": "2026-02-27T12:44:12Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/05_backend_frontend_api_usage.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 8645,
+      "last_write_utc": "2026-02-26T07:33:36Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/06_doc_style.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 7809,
+      "last_write_utc": "2026-02-26T07:27:54Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/07_module_inventory_and_doc_gap.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 10464,
+      "last_write_utc": "2026-02-27T12:46:17Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/08_glossary.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 3236,
+      "last_write_utc": "2026-02-23T08:43:23Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/09_error_handling.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 3717,
+      "last_write_utc": "2026-02-23T08:43:44Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/10_security_guide.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 3254,
+      "last_write_utc": "2026-02-23T08:44:08Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/11_contributing.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 3286,
+      "last_write_utc": "2026-02-26T07:25:58Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/12_adr_log.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 9099,
+      "last_write_utc": "2026-02-23T08:36:45Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/13_localhost_8091_slow_diagnosis_2026-02-26.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 9306,
+      "last_write_utc": "2026-02-27T12:46:57Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/14_doc_sync_system.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 3550,
+      "last_write_utc": "2026-02-26T09:17:32Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/00_navigation/README.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 1927,
+      "last_write_utc": "2026-02-27T12:41:57Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/01_context/system-context.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 1767,
+      "last_write_utc": "2026-02-27T12:41:57Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/02_capability_map/capability-map.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 1515,
+      "last_write_utc": "2026-02-27T12:42:36Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/03_domain_model/domain-model.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 1304,
+      "last_write_utc": "2026-02-27T12:42:36Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/04_core_flows/user-journeys.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 1410,
+      "last_write_utc": "2026-02-27T12:42:36Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/05_sequence/key-sequences.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 1373,
+      "last_write_utc": "2026-02-27T12:42:36Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/06_data_flow/api-to-db-to-ui.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 4467,
+      "last_write_utc": "2026-02-27T12:48:20Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/07_admin_ops/admin-linkage.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 2933,
+      "last_write_utc": "2026-02-27T12:48:32Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/08_evidence/evidence-index.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 2686,
+      "last_write_utc": "2026-02-27T12:48:48Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/09_appendix/glossary-and-rules.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 987,
+      "last_write_utc": "2026-02-27T12:43:02Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/business-atlas/README.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 2699,
+      "last_write_utc": "2026-02-27T12:41:56Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/README.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 10614,
+      "last_write_utc": "2026-02-27T12:44:50Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/DATAFLOW_INTERFACE.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 6831,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/DEPENDENCY_GRAPH.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 462,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/DEPRECATION_PLAN.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 2035,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/FILE_STRUCTURE.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 920,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/README.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 712,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/RESOURCE_PANORAMA.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 2823,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/docs/tools/TOOL_CATALOG.md",
+      "category": "global-docs",
+      "managed": true,
+      "size_bytes": 3735,
+      "last_write_utc": "2026-02-27T04:34:24Z"
+    },
+    {
+      "rel_path": "project_mall_v3/frontend/README.md",
+      "category": "frontend-docs",
+      "managed": true,
+      "size_bytes": 8989,
+      "last_write_utc": "2026-02-27T12:48:27Z"
+    },
+    {
+      "rel_path": "project_mall_v3/infra/README.md",
+      "category": "infra-docs",
+      "managed": true,
+      "size_bytes": 4419,
+      "last_write_utc": "2026-02-23T07:58:55Z"
+    },
+    {
+      "rel_path": "project_mall_v3/README.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 51758,
+      "last_write_utc": "2026-02-26T07:33:59Z"
+    },
+    {
+      "rel_path": "project_mall_v3/runtime-logs/home-slow-diagnosis.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 507,
+      "last_write_utc": "2026-02-27T12:48:58Z"
+    },
+    {
+      "rel_path": "project_mall_v3/runtime-logs/perf-diff.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 600,
+      "last_write_utc": "2026-02-27T11:08:14Z"
+    },
+    {
+      "rel_path": "project_mall_v3/runtime-logs/README.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 2440,
+      "last_write_utc": "2026-02-26T07:26:48Z"
+    },
+    {
+      "rel_path": "project_mall_v3/runtime-logs/verification/round1-diagnose.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 482,
+      "last_write_utc": "2026-02-27T12:17:47Z"
+    },
+    {
+      "rel_path": "project_mall_v3/runtime-logs/verification/round2-diagnose.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 482,
+      "last_write_utc": "2026-02-27T12:19:28Z"
+    },
+    {
+      "rel_path": "project_mall_v3/runtime-logs/verification/round3-diagnose.md",
+      "category": "project-root-docs",
+      "managed": true,
+      "size_bytes": 482,
+      "last_write_utc": "2026-02-27T12:23:12Z"
+    },
+    {
+      "rel_path": "project_mall_v3/scripts/README.md",
+      "category": "scripts-docs",
+      "managed": true,
+      "size_bytes": 22006,
+      "last_write_utc": "2026-02-27T12:45:18Z"
+    },
+    {
+      "rel_path": "project_mall_v3/tests/README.md",
+      "category": "tests-docs",
+      "managed": true,
+      "size_bytes": 2824,
+      "last_write_utc": "2026-02-23T08:11:39Z"
+    },
+    {
+      "rel_path": "project_mall_v3/tools/README.md",
+      "category": "tools-docs",
+      "managed": true,
+      "size_bytes": 6672,
+      "last_write_utc": "2026-02-27T12:46:17Z"
+    },
+    {
+      "rel_path": "README.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 67177,
+      "last_write_utc": "2026-02-27T12:49:14Z"
+    },
+    {
+      "rel_path": "TOOLS/README.md",
+      "category": "workspace-root-docs",
+      "managed": true,
+      "size_bytes": 1957,
+      "last_write_utc": "2026-02-27T12:48:17Z"
+    }
+  ]
+}

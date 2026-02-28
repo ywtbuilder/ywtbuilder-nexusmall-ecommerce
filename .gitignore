@@ -1,0 +1,57 @@
+# Java compiled class files
+*.class
+
+# Build artifacts
+**/target/
+**/.idea/
+**/.DS_Store
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.pnpm-store/
+
+# TypeScript
+**/*.tsbuildinfo
+**/.tsc-out/
+
+# Vite cache
+**/.vite/
+
+# Runtime logs (all generated files)
+runtime-logs/
+
+# Scraped product assets (large binary files)
+assets/淘宝爬取商品数据/
+assets/校徽jpg、校标png、校标cdr/
+
+# GitHub showcase seed policy (keep V100 + V101 only)
+data/seed/V102__seed_huawei_watch_gt6.sql
+data/seed/V103__seed_products_batch.sql
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+infra/.env
+
+# Dev tooling & AI agent records
+AGENTS.md
+TOOLS/
+.playwright-mcp/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+tmp/

@@ -1,0 +1,34 @@
+{
+  "excludeMarkdownPatterns": [
+    "\\\\assets\\\\",
+    "\\\\node_modules\\\\",
+    "\\\\.git\\\\",
+    "\\\\runtime-logs\\\\",
+    "\\\\docs\\\\_generated\\\\tools\\\\"
+  ],
+  "factsSnapshot": "docs/_generated/project_facts.snapshot.json",
+  "factsReport": "docs/_generated/project_facts.md",
+  "factSectionDocs": {
+    "data": [
+      "data/README.md",
+      "docs/03_data_migration.md",
+      "README.md"
+    ],
+    "backend": [
+      "backend/README.md",
+      "docs/00_architecture.md",
+      "docs/02_api_contract.md",
+      "docs/05_backend_frontend_api_usage.md"
+    ],
+    "frontend": [
+      "frontend/README.md",
+      "docs/05_backend_frontend_api_usage.md",
+      "docs/07_module_inventory_and_doc_gap.md"
+    ],
+    "scripts": [
+      "scripts/README.md",
+      "docs/04_release_runbook.md",
+      "docs/README.md"
+    ]
+  }
+}

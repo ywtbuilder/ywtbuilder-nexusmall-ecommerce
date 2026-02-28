@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-02-27T20:49:18+08:00",
+  "data": {
+    "migration_files": [
+      "V1__baseline.sql",
+      "V2__v3_schema_additions.sql",
+      "V3__default_order_setting.sql",
+      "V5__product_blob_tables.sql",
+      "V6__performance_search_and_asset_indexes.sql",
+      "V9__external_asset_map.sql"
+    ],
+    "seed_files": [
+      "V100__seed_admin_and_base_data.sql",
+      "V101__seed_sample_products.sql",
+      "V102__seed_huawei_watch_gt6.sql",
+      "V103__seed_products_batch.sql"
+    ]
+  },
+  "backend": {
+    "app_controller_count": 17,
+    "app_endpoint_count_estimate": 68,
+    "admin_controller_count": 28,
+    "admin_endpoint_count_estimate": 154
+  },
+  "frontend": {
+    "app_view_count": 18,
+    "admin_view_count": 16,
+    "app_main_files": [
+      "main.ts"
+    ],
+    "admin_main_files": [
+      "main.ts"
+    ],
+    "app_router_files": [
+      "index.ts"
+    ],
+    "admin_router_files": [
+      "index.ts"
+    ],
+    "admin_vite_config_files": [
+      "vite.config.ts"
+    ]
+  },
+  "scripts": {
+    "script_files": [
+      "audit-home-network-hosts.ps1",
+      "audit-resource-origin.ps1",
+      "build-be.ps1",
+      "check-docs.ps1",
+      "check-product-detail-data.ps1",
+      "check-shadow-js.ps1",
+      "dev-start-v3.ps1",
+      "diagnose-home-slow.ps1",
+      "doc-catalog.ps1",
+      "import-taobao-catalog.ps1",
+      "init-db.ps1",
+      "logs.ps1",
+      "menu.ps1",
+      "migrate-external-assets.ps1",
+      "normalize-taobao-assets.ps1",
+      "perf-check-v3.ps1",
+      "preflight-v3.ps1",
+      "restart-be.ps1",
+      "restart-fe.ps1",
+      "restart.ps1",
+      "run-tests.ps1",
+      "smoke-api-v3.ps1",
+      "start-fe-prod.ps1",
+      "start-v3.ps1",
+      "status.ps1",
+      "stop-fe-prod.ps1",
+      "stop-v3.ps1",
+      "sync-carousel-overlay.ps1",
+      "toolbox.ps1"
+    ],
+    "script_count": 29
+  }
+}
