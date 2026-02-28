@@ -18,7 +18,7 @@
 ## 一键运行命令（PowerShell 7）
 
 ```powershell
-cd project_mall_v3
+cd ywtbuilder-nexusmall-ecommerce
 pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\scripts\preflight-v3.ps1
 pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-v3.ps1 -Frontend
 ```
@@ -44,4 +44,5 @@ pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-v3.ps1 -Fr
 3. 订单超时取消为什么选 MQ 而不是轮询任务？
 4. 图片入 BLOB 的收益与代价分别是什么？
 5. 多模块 Maven 项目如何做依赖边界治理？
+
 
