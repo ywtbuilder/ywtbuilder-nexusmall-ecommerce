@@ -55,3 +55,7 @@ Thumbs.db
 # Temp
 *.tmp
 tmp/
+
+# Runtime generated artifacts
+backend/tmp
+frontend/apps/mall-app-web/vite.log

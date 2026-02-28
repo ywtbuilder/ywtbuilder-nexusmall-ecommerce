@@ -9,6 +9,8 @@ doc_type: overview
 
 > 文档导航：统一入口见 [docs/README.md](docs/README.md)。
 
+> 展示版入口：见 [README_SHOWCASE.md](README_SHOWCASE.md)（用于项目演示与面试讲解）。
+
 > 文档目标：让新接手同学在最短时间内知道项目怎么跑、代码该去哪里改、线上/本地问题怎么查。  
 > 本 README 重点覆盖：目录结构、关键文件职责、启动与排障、开发落点速查。
 
@@ -20,13 +22,13 @@ doc_type: overview
 
 ### 1分钟演示视频
 
-- [demo.mp4](docs/showcase/pro_好物星球/demo.mp4)
+- [demo.mp4](docs/showcase/ywtbuilder-nexusmall-ecommerce/demo.mp4)
 
 ### 3张关键截图
 
-1. [shot-01.png（首页聚合）](docs/showcase/pro_好物星球/shot-01.png)
-2. [shot-02.png（搜索/详情）](docs/showcase/pro_好物星球/shot-02.png)
-3. [shot-03.png（管理端）](docs/showcase/pro_好物星球/shot-03.png)
+1. [shot-01.png（首页聚合）](docs/showcase/ywtbuilder-nexusmall-ecommerce/shot-01.png)
+2. [shot-02.png（搜索/详情）](docs/showcase/ywtbuilder-nexusmall-ecommerce/shot-02.png)
+3. [shot-03.png（管理端）](docs/showcase/ywtbuilder-nexusmall-ecommerce/shot-03.png)
 
 ### 一键运行命令
 
@@ -43,7 +45,7 @@ pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-v3.ps1 -Fr
 
 ### 性能/稳定性证据
 
-- 证据页：[evidence.md](docs/showcase/pro_好物星球/evidence.md)
+- 证据页：[evidence.md](docs/showcase/ywtbuilder-nexusmall-ecommerce/evidence.md)
 - 建议展示指标：首屏渲染时间、接口 P95、降级路径成功率。
 
 ### 面试可提问点
@@ -1400,4 +1402,6 @@ project_mall_v3/
 1. 新增规律：前端入口凡是 `import './xxx'` 且同目录存在 `xxx.js` 与 `xxx.ts` 时，必须显式后缀导入或删除生成物，避免静默覆盖。
 2. 新增规律：RBAC 动态权限策略必须 fail-close，资源缺失不应默认放行。
 3. 遗留问题：订单与支付的事务闭环、ES 过滤一致性、前端类型与 lint 门禁仍需补齐。
+
+
 
